@@ -1,5 +1,3 @@
-package viewmodel
-
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
@@ -23,3 +21,4 @@ class FlightViewModel(application: Application) : AndroidViewModel(application) 
         }
     }
 }
+
